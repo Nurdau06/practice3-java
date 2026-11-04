@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Практика 3 — банковский перевод",
+            "request": "launch",
+            "mainClass": "Main",
+            "preLaunchTask": "Java: compile",
+            "vmArgs": "-Dfile.encoding=UTF-8",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Проверка банковских операций",
+            "request": "launch",
+            "mainClass": "BankingTests",
+            "preLaunchTask": "Java: compile",
+            "vmArgs": "-Dfile.encoding=UTF-8",
+            "console": "integratedTerminal"
+        }
+    ]
+}
